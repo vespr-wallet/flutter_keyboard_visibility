@@ -1,3 +1,12 @@
+## [6.0.2] - March 3, 2026
+
+* Added iOS Swift Package Manager support (dual CocoaPods + SPM)
+* Converted iOS plugin from Objective-C to Swift
+* Upgraded Android Gradle Plugin to 8.13.0 and Gradle wrapper to 9.3.1
+* Bumped Android compileSdk to 36, minSdk to 26, Java 17
+* Bumped minimum SDK constraint to Dart 3.5.0 / Flutter 3.24.0
+* Bumped iOS deployment target to 12.0
+
 ## [6.0.0] - December 19, 2023
 * 5.4.3 republished as a new major version. The Android Gradle changes were breaking for some users so 5.4.3 was unpublished. Using this version may require you to update your Android Gradle version.
 
